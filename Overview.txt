@@ -1,0 +1,5 @@
+-initialize npm
+-create .gitignore (node_modules)
+            (to tell our local machine not to send/ upload on github)
+-create github repository
+
