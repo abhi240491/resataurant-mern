@@ -1,0 +1,17 @@
+//Start working on the userDashboard
+.add a logo --Done
+.rearrange Navbar ---somewhat done
+.add cart ---done
+.get the products. --done
+.make card for userSide image, description, price,addtoCartbutton --done
+.......
+Day-2
+.transform button into +count- button after click.  --done(make it clean)
+.add useState, useEffect, or Redux feature to add subtract the products. --partly done
+.add feature to show number of products in cart.
+.add signout link with cart in navbar.
+.Design signout page.
+
+
+
+

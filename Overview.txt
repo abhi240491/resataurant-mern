@@ -3,3 +3,69 @@
             (to tell our local machine not to send/ upload on github)
 -create github repository
 
+-----------------------------------------------------------
+-create entry point file on server called server.js
+-create express and mongoose
+-create listening port
+-create database connection
+-------------------------------------------------------------
+creating mongoose database:
+    -go to mongodb atlas: create new project and new cluster(only one cluster 
+            per project free)
+    -go to Network Access under Security
+            choose: add IP address and allow access from anywhere then confirm
+                    this will set "Whitelist Entry: 0.0.0.0/0
+    -go to Database Access
+            add a unique username and password select the optino read and write to 
+            any database  then create user
+    -once all done go to clusters and click "connect"
+    -in the pop choose "connect your application"
+    -copy the connection string and paste in the "db.js" i.e. mongoose configuration 
+            file here{mongoose.connecmongodb+srv://restaurant-user0:<password>@restaurant-mern-stack.hlhm5.mongodb.net/myFirstDatabase?retryWrites=true&w=majorityt}.
+---------------------------------------------------------------------------------------
+-install nodemon 
+    use "nodemon server.js" instead of "node server.js" 
+-create react app ------ which generates front-end.
+        work on the frontend part usual stuff.
+--------------------------------------------------------------------------------------
+-start working on navbar
+-install bootstrap, font-awesome.
+--------------------------------------------------------------------------------------
+-in backend part could not work out using "concurrently with yarn, to simultaneously run the
+backend and frontend parts"
+-------------------------------------------------------------------------------------
+having setup the link between frontend and backend restart the two servers:
+    -first backend i.e. node
+    -then frontend i.e. react
+--------------------------------------------------------------------------------------
+-to create database user schema make a new folder called model use mongoose.
+-use bcryptjs for encryption.
+--------------------------------------------------------------------
+***********To understand the flow of SignUP functionality, 
+just go to last 15min of lec-14************************************
+---------------------------------------------------------------------
+            SignIN Component:
+---------------------------------------------------------------------
+Same as signUP part things change after validation part.
+JWT authentication follows.
+----------------------------------------------------------------------
+Local storage vs Cookies
+1.Cookies can store limited data typically 4KB.
+    Local storage--5MB.
+
+2.Data persists in local storage even if refreshed/closed,
+    not in case of cookies.
+
+3. Local storage data remains at the client end 
+    cookies are sent and read by the server as well.
+
+We are going to use all both types of storage
+
+redux-devtools-extension redux react-redux redux-thunk
+
+
+
+
+
+
+
